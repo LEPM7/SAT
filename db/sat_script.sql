@@ -5,19 +5,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
 -- -----------------------------------------------------
--- Schema mydb
+-- Schema sat
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema mydb
+-- Schema sat
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `sat` DEFAULT CHARACTER SET utf8 ;
+USE `sat` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`REMESAS`
+-- Table `sat`.`REMESAS`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`REMESAS` (
+CREATE TABLE IF NOT EXISTS `sat`.`REMESAS` (
   `ID_REMESAS` INT NOT NULL,
   `FECHA_RECEPCION` DATETIME NULL,
   `FECHA_PAGO_IMPUESTO` DATETIME NULL,
