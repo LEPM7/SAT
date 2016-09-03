@@ -28,8 +28,7 @@ public class SATService {
         return new String();
     }
     
+    //    @WebMethod(operationName = "")     
+    //    @WebParam(name = "")
     
-    
-//    @WebMethod(operationName = "")     
-//    @WebParam(name = "")
 }
